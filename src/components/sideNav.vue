@@ -1,4 +1,5 @@
 <script setup>
+import mainContant from './mainContant.vue';
 </script>
 
 <template>
@@ -11,7 +12,7 @@
     </button>
     <!-- Sidebar -->
 
-    <div class="collapse d-lg-block bg-light vh-100 shadow-lg" id="sidebar" style="width: 250px;">
+    <div class="collapse d-lg-block bg-light  shadow-lg" id="sidebar" style="width: 250px;">
       <ul class="nav flex-column p-3">
         <li class="nav-item">
           <a class="nav-link text-dark" href="#">My Profile</a>
@@ -33,8 +34,7 @@
 
     <!-- Main Content -->
     <div class="flex-grow-1 p-3">
-      <h4>Main Content Area</h4>
-      <p>This is where the main content will go.</p>
+      <mainContant />
     </div>
   </div>
 </template>
